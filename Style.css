@@ -34,10 +34,43 @@
     margin-top: 0px;
 }
 
-#AxieLogo {
+.AxieLogo {
+    background-image: url('./Bilder/Axie\ Logo.png');
+    width: 1000px;
+    height: 400px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px #252835 inset;
     position: absolute;
     margin-left: 50%;
     left: -250px;
     transform: scale(0.5);
     transform-origin: top left;
+}
+
+/* unvisited link */
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+  /* mouse over link */
+a:hover {
+    color: rgb(155, 155, 155);
+}
+  
+
+#LinkListDiv {
+    position: relative;
+    margin-left: 50%;
+    right: 200px;
+}
+
+#LinkList {
+    position: absolute;
+    text-align: left;
+    margin-top: 250px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
 }
